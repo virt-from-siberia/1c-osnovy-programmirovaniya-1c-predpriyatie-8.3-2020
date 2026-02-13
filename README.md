@@ -8,6 +8,8 @@
 ```
 ├── Base/               # База данных (игнорируется git)
 ├── ОП-Начальная.dt     # Выгрузка конфигурации
+├── Code.bsl            # Примеры кода на языке 1С
+├── VSCODE_EXTENSIONS.md # Инструкция по установке расширений
 └── TIME.txt            # Служебный файл
 ```
 
@@ -56,11 +58,28 @@
    git push
    ```
 
+## Работа с кодом в Cursor/VS Code
+
+### Установка расширения для подсветки синтаксиса
+
+Для работы с кодом 1С в Cursor/VS Code установите расширение **Language 1C (BSL)**:
+
+1. Нажмите `Ctrl+Shift+X` для открытия панели расширений
+2. Найдите и установите: **"Language 1C (BSL)"**
+3. Файлы с кодом должны иметь расширение **`.bsl`**
+
+Подробная инструкция: см. файл [VSCODE_EXTENSIONS.md](VSCODE_EXTENSIONS.md)
+
+### Примеры кода
+
+В файле `Code.bsl` содержатся примеры кода на языке 1С для изучения основ программирования.
+
 ## Полезные ссылки
 
 - [EDT - современная IDE для 1С](https://releases.1c.ru/project/DevelopmentTools10)
 - [giterp - инструмент для git](https://infostart.ru/public/678948/)
 - [Сообщество 1С на GitHub](https://github.com/topics/1c-enterprise)
+- [Расширение Language 1C (BSL) для VS Code](https://marketplace.visualstudio.com/items?itemName=1c-syntax.language-1c-bsl)
 
 ## Примечания
 
